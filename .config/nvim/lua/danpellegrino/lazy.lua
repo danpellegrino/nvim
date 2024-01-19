@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	{import = "danpellegrino.plugins"},
-	{import = "danpellegrino.plugins.lsp"}
+  {import = "danpellegrino.plugins.lsp"},
 }, {
 	install = {
 		colorscheme = { "gruvbox" },
